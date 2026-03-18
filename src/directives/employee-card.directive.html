@@ -1,0 +1,15 @@
+<b>Employee Card Directive</b>
+
+{{message}}
+
+<p>
+    {{currectEmployee.id}}
+    {{currectEmployee.name}}
+    {{currectEmployee.city}}
+</p>
+
+<hr/>
+
+<p ng-repeat="emp in allEmployee">
+    {{emp.id}} - {{emp.name}} - {{emp.city}}
+</p>
