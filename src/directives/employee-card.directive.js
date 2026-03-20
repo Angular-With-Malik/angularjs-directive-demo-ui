@@ -4,9 +4,10 @@
             return {
                 scope: {
                     currectEmployee: '=',
-                    message: '=',
-                    allEmployee: '='
+                    message: '<',      // < One way data binding
+                    allEmployee: '='   // = Two way data binding
                 },
+                // restrict: 'A',   // 'A' - Attribute;  'E'  - Element
                 templateUrl: 'src/directives/employee-card.directive.html'
             }
         })
